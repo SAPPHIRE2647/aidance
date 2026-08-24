@@ -1,0 +1,20 @@
+# ============================================================
+# AIDance —— 基于人体姿态的双视频动作对比与评估系统
+# 已验证运行环境：Python 3.12.3
+# ============================================================
+
+# 人体姿态估计（33 个关键点）
+mediapipe==0.10.13
+
+# 视频/图像处理：提供 cv2
+# mediapipe 本身依赖 opencv-contrib-python，这里显式固定版本
+opencv-contrib-python==4.11.0.86
+
+# 数值计算
+numpy==1.26.0
+
+# 加权余弦相似度（sklearn.metrics.pairwise.cosine_similarity）
+scikit-learn==1.2.2
+
+# 评分曲线可视化
+matplotlib==3.7.1
